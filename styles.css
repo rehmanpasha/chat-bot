@@ -1,0 +1,952 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 9000px;
+    width: 9000px; */
+    height: 1500px;
+    width: 100%;
+
+}
+
+.navbar {
+    /* Base */
+
+    position: absolute;
+    top: 100px;
+    left: 380px;
+    width: 375px;
+    height: 80px;
+    background: #062D28;
+    border-radius: 0px 0px 8px 8px;
+
+}
+
+.back-icon {
+    /* Icon */
+
+    position: absolute;
+    width: 6px;
+    height: 12px;
+    left: 14px;
+    top: 30px;
+
+
+}
+
+
+
+.profile-icon {
+    /* Mask */
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 42px;
+    top: 20px;
+    background: #D8D8D8;
+    border-radius: 50%;
+
+}
+
+.profile-name {
+    /* Quiche Hollandaise */
+
+    position: absolute;
+    height: 19px;
+    left: 99px;
+    right: 7.47%;
+    top: calc(50% - 19px/2 - 10px);
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+}
+
+.active-status {
+    /* Active Now */
+
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    height: 14px;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+
+}
+
+.call-icon {
+    /* Vector 419 (Stroke) */
+
+    position: absolute;
+    top: 30px;
+    left: 260px;
+
+}
+
+.video-call-icon {
+    /* Rectangle 1361 (Stroke) */
+
+    position: absolute;
+    top: 32px;
+    left: 300px;
+    width: 16.5px;
+    height: 13.5px;
+
+}
+
+.video-camera-lense {
+
+    /* Vector 441 (Stroke) */
+
+    position: absolute;
+    top: 34px;
+    left: 316px;
+    width: 6.5px;
+    height: 9.5px;
+
+}
+
+.menu {
+
+    /* Vector */
+
+    position: absolute;
+    left: 340px;
+    top: 33px;
+    /* Neutral/Off-white */
+
+
+
+}
+
+.online-status {
+    /* Oval */
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 70px;
+    top: 49px;
+    background: #80EA4E;
+    border-radius: 50%;
+}
+
+.container-inbox {
+    /* chat 2 */
+
+    position: relative;
+    top: 150px;
+    left: 380px;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.sunday {
+    /* Just Now */
+
+    position: absolute;
+    width: 53px;
+    height: 17px;
+    left: 162px;
+    text-align: center;
+    top: 50px;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #1E2022;
+
+}
+
+.reciver-profile-icon {
+
+
+
+
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 100px;
+    bottom: 60.23%;
+    left: 10px;
+    background: #D8D8D8;
+    border-radius: 50%;
+
+
+
+
+
+}
+
+.inbox-chat-1 {
+    /* Base */
+
+    position: absolute;
+    top: 90px;
+    left: 70px;
+    height: 80px;
+    width: 240px;
+    background: #EFEEF4;
+    border-radius: 0px 24px 24px 24px;
+
+}
+
+.inbox-message-1 {
+
+
+    position: absolute;
+    top: 20px;
+
+    left: 20px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 1px;
+
+    color: #77838F;
+
+
+
+
+}
+
+.inbox-chat-2 {
+    /* Base */
+
+    position: absolute;
+    height: 88px;
+    width: 240px;
+    top: 200px;
+    left: 120px;
+    background: #00C987;
+    border-radius: 16px 16px 0px 16px;
+
+}
+
+.inbox-message-2 {
+    /* Sed ligula erat,maur */
+
+    position: absolute;
+    top: 20px;
+    left: 12px;
+
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.span1 {
+    /* 01:15 PM */
+
+    position: absolute;
+    height: 11px;
+    width: 50px;
+    top: 30px;
+    left: 245px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.8px;
+    color: #77838F;
+
+
+}
+
+.span2 {
+    /* 01:15 PM */
+
+    position: absolute;
+    height: 11px;
+    top: 15px;
+    width: 50px;
+    right: 249px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+    color: #77838F;
+
+
+}
+
+.inbox-chat-3 {
+    /* Base */
+
+    position: absolute;
+    height: 88px;
+    width: 240px;
+    top: 305px;
+    left: 120px;
+    background: #00C987;
+    border-radius: 16px 16px 0px 16px;
+
+}
+
+.span3 {
+    /* 01:18 PM */
+
+    position: absolute;
+    height: 11px;
+    width: 50px;
+    top: 37px;
+    right: 286px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+    color: #77838F;
+
+}
+
+.reciving-message {
+
+    /* Quiche has been list */
+
+    position: absolute;
+    height: 14px;
+    top: 405px;
+    left: 145px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    color: #D3D4D6;
+
+
+}
+
+.justnow {
+    /* Just Now */
+
+    position: absolute;
+    width: 66px;
+    height: 17px;
+    left: 155px;
+    top: 460px;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 1px;
+    color: #1E2022;
+
+}
+
+.reciver-profile-icon1 {
+    /* Mask */
+
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    background-color: #D8D8D8;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+
+.inbox-chat-4 {
+
+    /* Base */
+
+    position: absolute;
+    top: 500px;
+    left: 67px;
+    height: 88px;
+    width: 240px;
+    background: #EFEEF4;
+    border-radius: 0px 24px 24px 24px;
+
+}
+
+.span4 {
+    /* 01:15 PM */
+
+    position: absolute;
+    top: 37px;
+    left: 247px;
+    height: 11px;
+    width: 50px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.8px;
+    color: #77838F;
+
+
+}
+
+.inbox-message-3 {
+    /* Sed ligula erat, dig */
+
+
+    position: absolute;
+    top: 520px;
+    left: 90px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 1px;
+    color: #77838F;
+}
+
+.inbox-chat-5 {
+    /* Base */
+
+    position: absolute;
+    height: 88px;
+    width: 240px;
+    top: 610px;
+    left: 120px;
+    background: #00C987;
+    border-radius: 24px 24px 0px 24px;
+
+}
+
+.inbox-message-4 {
+    /* Sed ligula erat,maur */
+
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* or 171% */
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.span5 {
+    /* 01:15 PM */
+
+    position: absolute;
+    height: 11px;
+    top: 37px;
+    width: 50px;
+    right: 288px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    /* identical to box height */
+    letter-spacing: 0.8px;
+    color: #77838F;
+
+
+}
+
+.text-bar {
+    /* Base */
+
+    position: absolute;
+    right: 3px;
+    top: 150px;
+    width: 347px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.share-icon {
+    /* Icon */
+
+    position: absolute;
+    width: 16.44px;
+    height: 17.43px;
+    left: 30px;
+    top: 15px;
+}
+
+.textbar-placeholder {
+    /* Text */
+
+    position: absolute;
+    height: 17px;
+    top: 15px;
+    left: 80px;
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.175px;
+    color: #B6B7B8;
+}
+
+.line {
+    /* Line */
+
+    box-sizing: border-box;
+    position: absolute;
+    top: 12px;
+    left: 270px;
+    background: #504DE5;
+    width: 1px;
+    height: 25px;
+
+
+
+}
+
+.vector {
+
+    /* Vector */
+
+    position: absolute;
+    top: 20px;
+    left: 272.5px;
+    width: 6.5px;
+    height: 12px;
+
+
+}
+
+.vector2 {
+    /* Vector */
+
+    position: absolute;
+    top: 27px;
+    left: 270px;
+    height: 7.75px;
+    width: 11.5px;
+}
+
+.vector3 {
+    /* Vector */
+
+    position: absolute;
+    top: 34px;
+    left: 271px;
+    height: 3px;
+    width: 9px;
+}
+
+.vectors {
+    position: absolute;
+    top: -3px;
+    left: 20px;
+
+}
+
+.icon {
+    /* Icon */
+
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 16px;
+    left: 315px;
+
+
+
+}
+
+
+.wave1 {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    background-color: white;
+    height: 14px;
+    width: 3px;
+}
+
+.wave2 {
+
+    position: absolute;
+    top: 51px;
+    left: 25px;
+    background-color: white;
+    height: 12px;
+    width: 3px;
+}
+
+.wave3 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: white;
+    height: 14px;
+    width: 3px;
+}
+
+.wave4 {
+    position: absolute;
+    top: 49px;
+    left: 35px;
+    background-color: white;
+    height: 16px;
+    width: 3px;
+}
+
+.wave5 {
+    position: absolute;
+    top: 48px;
+    left: 40px;
+    background-color: white;
+    height: 18px;
+    width: 3px;
+}
+
+.wave6 {
+    position: absolute;
+    top: 46px;
+    left: 45px;
+    background-color: white;
+    height: 21px;
+    width: 3px;
+
+}
+
+.wave7 {
+    position: absolute;
+    top: 48px;
+    left: 50px;
+    background-color: white;
+    height: 18px;
+    width: 3px;
+}
+
+.wave8 {
+    position: absolute;
+    top: 49px;
+    left: 55px;
+    background-color: white;
+    height: 16px;
+    width: 3px;
+}
+
+.wave9 {
+
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background: white;
+    height: 14px;
+    width: 3px;
+
+}
+
+.wave10 {
+    position: absolute;
+    top: 51px;
+    left: 65px;
+    background-color: white;
+    height: 12px;
+    width: 3px;
+}
+
+.wave11 {
+    position: absolute;
+    top: 49px;
+    left: 70px;
+    background-color: white;
+    height: 16px;
+    width: 3px;
+}
+
+.wave12 {
+    position: absolute;
+    top: 49px;
+    left: 75px;
+    background-color: white;
+    height: 16px;
+    width: 3px;
+}
+
+.wave13 {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    background-color: white;
+    height: 14px;
+    width: 3px;
+}
+
+.wave14 {
+    position: absolute;
+    top: 51px;
+    left: 85px;
+    background-color: white;
+    height: 12px;
+    width: 3px;
+}
+
+.wave15 {
+    position: absolute;
+    top: 46px;
+    left: 90px;
+    background-color: white;
+    height: 21px;
+    width: 3px;
+}
+
+.wave16 {
+    position: absolute;
+    top: 48px;
+    left: 95px;
+    background-color: white;
+    height: 18px;
+    width: 3px;
+}
+
+.wave17 {
+    position: absolute;
+    top: 49px;
+    left: 100px;
+    background-color: white;
+    height: 16px;
+    width: 3px;
+}
+
+.wave18 {
+
+    position: absolute;
+    top: 50px;
+    left: 105px;
+    background: white;
+    height: 14px;
+    width: 3px;
+
+}
+
+.wave19 {
+    position: absolute;
+    top: 51px;
+    left: 110px;
+    background-color: white;
+    height: 12px;
+    width: 3px;
+}
+
+.wave20 {
+    position: absolute;
+    top: 52px;
+    left: 115px;
+    background-color: white;
+    height: 10px;
+    width: 3px;
+}
+
+.wave21 {
+    position: absolute;
+    top: 53.5px;
+    left: 120px;
+    background-color: white;
+    height: 7px;
+    width: 3px;
+}
+
+.wave22 {
+    position: absolute;
+    top: 54.5px;
+    left: 125px;
+    background-color: white;
+    height: 5px;
+    width: 3px;
+}
+
+.wave23 {
+    position: absolute;
+    top: 46px;
+    left: 130px;
+    background-color: white;
+    height: 21px;
+    width: 3px;
+}
+
+.wave24 {
+    position: absolute;
+    top: 54.5px;
+    left: 135px;
+    background-color: white;
+    height: 5px;
+    width: 3px;
+}
+
+.wave25 {
+    position: absolute;
+    top: 53.5px;
+    left: 140px;
+    background-color: white;
+    height: 7px;
+    width: 3px;
+}
+
+.wave26 {
+    position: absolute;
+    top: 52px;
+    left: 145px;
+    background-color: white;
+    height: 10px;
+    width: 3px;
+}
+
+.wave27 {
+    position: absolute;
+    top: 51px;
+    left: 150px;
+    background-color: white;
+    height: 12px;
+    width: 3px;
+}
+
+.wave28 {
+    position: absolute;
+    top: 48px;
+    left: 155px;
+    background-color: white;
+    height: 17px;
+    width: 3px;
+}
+
+.wave29 {
+    position: absolute;
+    top: 49px;
+    left: 160px;
+    background-color: white;
+    height: 15px;
+    width: 3px;
+}
+
+.wave30 {
+    position: absolute;
+    top: 50px;
+    left: 165px;
+    background-color: white;
+    height: 13px;
+    width: 3px;
+}
+
+
+.wave31 {
+
+    position: absolute;
+    top: 50px;
+    left: 170px;
+    background-color: white;
+    height: 15px;
+    width: 3px;
+}
+
+
+.wave32 {
+
+
+
+    position: absolute;
+    top: 51px;
+    left: 175px;
+    background-color: white;
+    height: 13px;
+    width: 3px;
+}
+
+.wave33 {
+
+    position: absolute;
+    top: 54px;
+    left: 180px;
+    background-color: white;
+    height: 8px;
+    width: 3px;
+}
+
+.wave-container {
+    position: absolute;
+    top: 3px;
+    left: -6px;
+
+
+}
+
+.voice-on-off {
+    /* Base */
+
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    top: 40px;
+    left: 205px;
+    background: #FFFFFF;
+
+}
+
+.rectangle1 {
+    position: absolute;
+    top: 47px;
+    left: 215px;
+    background-color: #00C987;
+    height: 14px;
+    width: 3px;
+    border-radius: 10px;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 47px;
+    left: 220px;
+    border-radius: 15px;
+    background-color: #00C987;
+    height: 14px;
+    width: 3px;
+}
